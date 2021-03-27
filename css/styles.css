@@ -1,0 +1,479 @@
+
+/* font-family: 'Montserrat', sans-serif; */
+
+body {
+	margin: 0;
+	padding: 0;
+}
+html, body {
+	height: 100%;
+}
+main {
+	box-sizing: border-box;
+	min-height: 100%;
+	padding-bottom: 70px;
+}
+p {
+	font-family: 'Roboto Condensed', sans-serif;
+	margin: 0px 0px 10px;
+	font-size: 14pt;
+	font-weight: 700;
+}
+.slink {
+	text-decoration: none;
+	color: #000;
+}
+.slink:hover {
+	color: #ff7433;
+}
+.sbox {
+	text-align: justify;
+	max-width: 90%;
+	margin: 0 auto;
+	margin-top: 30px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 12pt;
+}
+header.login {
+	text-align: right;
+}
+.nick_name {
+	font-size: 11pt;
+	font-weight: 700;
+	color: #000;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+a.login {
+  	display: inline-block;
+	color: #000;
+	font-size: 10pt;
+  	font-weight: 700;
+  	text-decoration: none;
+  	user-select: none;
+	outline: none;
+	border: 2px solid #000;
+	padding: 3px 10px;
+	margin-right: 5px;
+	margin-top: 5px;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-transform: uppercase;
+}
+a.login:hover {
+	background-color: #000;
+	color: #fff;
+}
+a.logo {
+	color: #000;
+	text-decoration: none;
+  	user-select: none;
+}
+div.name {
+	position: relative;
+	padding-top: 100px;
+	text-align: center;
+	font-size: 60pt;
+	font-family: 'Bebas Neue', cursive;
+}
+/*------------------------- index------------------------------------------*/
+.main_content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.box_content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 400px;
+	height: 200px;
+	margin: 10px;
+	text-decoration: none;
+	user-select: none;
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+	border-radius: 5px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 32px;
+	transition: background 0.5s , box-shadow 0.5s ;
+}
+.box_content:hover {
+	box-shadow: inset 0px 0px 50px 0px #000;
+	background-size: 105%;
+}
+/*-------------------------controll panel------------------------------------------*/
+.settime {
+	padding-top: 30px;
+	text-align: left;
+	margin: 0 25%;
+}
+.timer {
+	margin: 5px 0;
+	font-family: 'Russo One', sans-serif;
+}
+.stats {
+	margin: 0 25%;
+}
+/*-------------------------ticket------------------------------------------*/
+.message {
+	font-family: 'Russo One', sans-serif;
+	text-align: center;
+}
+.ticket_box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.ticket {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 400px;
+	height: 200px;
+	margin: 10px;
+	text-decoration: none;
+	user-select: none;
+	background-position: center;
+	background-size: 100%;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+	border-radius: 5px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 32px;
+	transition: background 0.5s, box-shadow 0.5s;
+}
+.ticket:hover {
+	box-shadow: inset 0px 0px 50px 0px #000;
+	background-size: 105%;
+}
+.ticket_info {
+	font-size: 14pt;
+	font-weight: 500;
+}
+.ticket_player_img {
+	width: 15px;
+	height: 15px;
+}
+.ticket_players span {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.reg_info {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.reg_info_text {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin: 0px 20px;
+	width: 140px;
+	font-family: 'Russo One', sans-serif;
+}
+
+/*------------------------- register page-------------------------------*/
+.reginfo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.nick {
+	font-weight: 700;
+	font-size: 30pt;
+	font-family: 'Russo One', sans-serif;
+}
+.mess {
+	font-weight: 700;
+	font-size: 24pt;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.undobutton {
+	color: #000;
+	font-size: 10pt;
+  	font-weight: 700;
+  	text-decoration: none;
+  	user-select: none;
+	outline: none;
+	border: 2px solid #000;
+	padding: 3px 10px;
+	margin-top: 10px;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-transform: uppercase;
+	background: none;
+	cursor: pointer;
+}
+.undobutton:hover {
+	background-color: #000;
+	color: #fff;
+}
+/*-----------------------------------------footer------------------------------------*/
+.footer {
+	width: 100%;
+	height: 60px;
+	margin-top: -60px;
+	margin-left: 0;
+	margin-right: 0;
+}
+.footer_bottom {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-shrink: 0;
+	width: 100%;
+	height: 100%;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 100;
+	font-size: small;
+}
+.footer_bottom > div {
+	min-width: 270px;
+}
+.footer_logo_game {
+	width: 152px;
+	height: 60px;	
+	background-image: url(/images/footer/logo-wot.png);
+	background-repeat: no-repeat;
+	background-size: 80%;
+	background-position: center;
+
+}
+.footer_logo_sup {
+	width: 152px;
+	height: 60px;	
+	background-image: url(/images/footer/logo-sup.png);
+	background-repeat: no-repeat;
+	background-size: 80%;
+	background-position: center;
+}
+/* --------------------------------------leaders------------------------------------ */
+.league {
+	margin-top: 0px;
+	text-align: center;
+	font-family: 'Russo One', sans-serif;
+	font-size: 40pt;
+}
+.list_of_leagues {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.league_name {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 18pt;
+	width: 140px;
+	height: 50px;
+	margin: 0 10px;
+	text-decoration: none;
+	user-select: none;
+	background: #fff;
+	border: 2px solid #000;
+	cursor: pointer;
+	color: #000;
+}
+.league_name:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+.leaguetable {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.tablehead, .tablebody {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;	
+	align-items: center;
+	font-family: 'Oswald', sans-serif;
+}
+.tablebody {
+	color: #302b2b;
+	height: 25px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.tablebody:hover {
+	color: #302b2b;
+	background-color: #eeeeee;
+}
+.cell {
+	text-align: center;
+	width: 70px;
+}
+/* --------------------------------------personal page------------------------------------ */
+.nickname {
+	margin: 0px;
+	text-align: center;
+}
+.level {
+	font-size: 70px;
+	margin: 0px;
+	text-align: center;
+}
+.level_bar {
+	margin: 0 auto;
+	margin-bottom: 30px;
+	width: 80%;
+	max-width: 500px;
+	height: 15px;
+	border: 2px solid #000;
+}
+.progress {
+	height: 100%;
+	text-align: right;
+	background-color: #ff7433;
+	color: #000;
+	font-size: 13px;
+}
+.playerinfo {
+	font-family: 'Russo One', sans-serif;
+	font-size: 20pt;
+}
+.battleinfo {
+	text-align: center;
+	margin-bottom: 10px;
+}
+/* --------------------------------------donation------------------------------------ */
+.bonuses {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	margin-bottom: 10px;
+}
+.list_of_bonuses {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 120px;
+	height: 160px;
+	margin: 0px 10px;
+}
+.list_of_bonuses p {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 12pt;
+	font-weight: 500;
+}
+.donate_info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.donate_button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 18pt;
+	width: 150px;
+	height: 50px;
+	margin: 0 10px;
+	text-decoration: none;
+	user-select: none;
+	background: #fff;
+	border: 2px solid #000;
+	cursor: pointer;
+	color: #000;
+}
+.donate_button:hover {
+	background-color: #000;
+	color: #fff;
+}
+/* --------------------------------------adapted design------------------------------------ */
+@media screen and (min-width:800px) {
+	.sbox {
+		max-width: 70%;
+	}
+	.player_name {
+		width: 140px;
+	}
+}
+@media screen and (max-width:500px) {
+	/*------ index------*/
+	.logo {
+		font-size: 34pt;
+	}
+	.box_content {
+		width: 300px;
+		height: 150px;
+		font-size: 20pt;
+	}	
+	/*------ ticket------*/
+	.ticket {
+		width: 300px;
+		height: 150px;
+		font-size: 20pt;
+	}
+	.reg_info_text {
+		font-size: 11pt;
+		margin: 0px 10px;
+	}
+	.mess {
+		font-size: 18pt;
+	}
+	/*------ leaders------*/
+	.league_name {
+		width: 120px;
+		height: 40px;
+		font-size: 14pt;
+	}
+	.player_damage, .player_assist, .player_kills, .player_wins {
+		display: none;
+	}
+	.player_position, .player_battles {
+		width: 27px;
+	}
+	.player_kills {
+		width:57px;
+	}
+	.player_points {
+		width: 45px;
+	}
+	/*------ donation------*/
+	.list_of_bonuses {
+		width: 85px;
+		height: 150px;
+	}
+	.donate_button {
+		width: 120px;
+		height: 40px;
+		font-size: 14pt;
+	}
+	/*------ personal page------*/
+	.playerinfo {
+		font-size: 11pt;
+	}
+	.level {
+		font-size: 45px;
+	}
+	.level_bar {
+		height: 10px;
+	}
+	.progress {
+		font-size: 10px;
+	}
+}
