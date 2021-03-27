@@ -1,0 +1,2 @@
+# wotleague
+WoT competitive league
